@@ -1,19 +1,19 @@
-# Coding Agent Test
+# 🤖 Coding Agent Test
 
 A simple Java project demonstrating binary search implementation. This repository serves as a test project for coding agents and contains a basic binary search algorithm with educational examples.
 
-## Overview
+## 📋 Overview
 
 This project implements a binary search algorithm in Java that searches for a target value in a sorted array. The implementation includes a command-line interface for testing the algorithm with custom inputs.
 
-## Features
+## ✨ Features
 
-- Binary search implementation for sorted integer arrays
-- Command-line interface for easy testing
-- Simple, educational codebase for learning and testing purposes
-- IntelliJ IDEA project configuration included
+- 🔍 Binary search implementation for sorted integer arrays
+- 💻 Command-line interface for easy testing
+- 📚 Simple, educational codebase for learning and testing purposes
+- 🛠️ IntelliJ IDEA project configuration included
 
-## Prerequisites
+## 📦 Prerequisites
 
 Before running this project, ensure you have the following installed:
 
@@ -27,7 +27,7 @@ java -version
 javac -version
 ```
 
-## Installation
+## 🚀 Installation
 
 1. **Clone the repository**:
    ```bash
@@ -41,7 +41,7 @@ javac -version
    javac Main.java
    ```
 
-## Usage
+## 💡 Usage
 
 The program accepts command-line arguments where:
 - The first N-1 arguments are the sorted array elements
@@ -53,7 +53,7 @@ The program accepts command-line arguments where:
 java Main <array elements> <target value>
 ```
 
-### Examples
+### 📝 Examples
 
 **Example 1**: Search for value 3 in array [1, 2, 3, 4, 5]
 ```bash
@@ -83,13 +83,13 @@ Usage: java Main <array elements> <target value>
 Example: java Main 1 2 3 4 5 5
 ```
 
-### Important Notes
+### ⚠️ Important Notes
 
 - **Array must be sorted**: The binary search algorithm requires a sorted array to function correctly
 - **Integer values only**: All input values must be valid integers
 - **Return value**: The program returns the index of the found element (0-based) or -1 if not found
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 coding-agent-test/
@@ -103,7 +103,7 @@ coding-agent-test/
 └── README.md           # This file
 ```
 
-## Code Structure
+## 🏗️ Code Structure
 
 The main components of the code are:
 
@@ -119,7 +119,7 @@ The main components of the code are:
   - Calls binary search
   - Prints the result
 
-## Algorithm Explanation
+## 🧮 Algorithm Explanation
 
 The binary search algorithm works by:
 
@@ -134,7 +134,7 @@ The binary search algorithm works by:
 **Time Complexity**: O(log n)  
 **Space Complexity**: O(1)
 
-## Development
+## 🔧 Development
 
 ### Using IntelliJ IDEA
 
@@ -161,7 +161,7 @@ java Main 1 2 3 4 5 3
 rm *.class
 ```
 
-## Testing
+## 🧪 Testing
 
 To test the implementation with various scenarios:
 
@@ -185,12 +185,12 @@ java Main 1 2 2 3 4 2
 java Main -5 -3 -1 0 2 4 -3
 ```
 
-## Known Issues
+## 🐛 Known Issues
 
 - The code contains a note about a potential bug in the binary search implementation (line 7: "Bug: should")
 - The condition `while (i < j)` may not handle all edge cases correctly (should potentially be `i <= j`)
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! This is a test repository, so feel free to:
 
@@ -208,17 +208,17 @@ Contributions are welcome! This is a test repository, so feel free to:
 - Test your changes thoroughly
 - Follow Java naming conventions
 
-## License
+## 📄 License
 
 This project is part of the ghc-jetbrains organization and is intended for testing and educational purposes.
 
-## Support
+## 💬 Support
 
 For questions, issues, or contributions:
 - Open an issue in the [GitHub repository](https://github.com/ghc-jetbrains/coding-agent-test/issues)
 - Contact the maintainers through GitHub
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 - Created as a test repository for coding agent development
 - Binary search algorithm is a fundamental computer science concept
@@ -226,4 +226,4 @@ For questions, issues, or contributions:
 
 ---
 
-**Note**: This is a test repository. The code may contain intentional bugs or simplified implementations for educational and testing purposes.
+**📌 Note**: This is a test repository. The code may contain intentional bugs or simplified implementations for educational and testing purposes.
