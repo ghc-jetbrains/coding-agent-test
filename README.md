@@ -17,7 +17,7 @@ javac src/Main.java
 Pass the sorted array values first and the target value last:
 
 ```bash
-java -cp src Main 1 2 3 4 5 5
+java -cp src Main 1 2 3 4 5 6
 ```
 
 Example output:
