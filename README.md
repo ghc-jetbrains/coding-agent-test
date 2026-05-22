@@ -14,7 +14,7 @@ javac src/Main.java
 
 ## Run
 
-Pass the sorted array values first and the target value last:
+Pass the sorted array values first and the target value last. This example searches for a value that is not present:
 
 ```bash
 java -cp src Main 1 2 3 4 5 6
