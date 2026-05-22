@@ -1,18 +1,18 @@
-# coding-agent-test
+# coding-agent-test 🚀
 
 Small Java command-line example that runs a binary search against a sorted list of integers.
 
-## Requirements
+## Requirements ✅
 
 - Java Development Kit (JDK) 8 or newer
 
-## Compile
+## Compile 🛠️
 
 ```bash
 javac src/Main.java
 ```
 
-## Run
+## Run ▶️
 
 Pass the sorted array values first and the target value last. This example searches for a value that is not present:
 
@@ -20,7 +20,7 @@ Pass the sorted array values first and the target value last. This example searc
 java -cp src Main 1 2 3 4 5 6
 ```
 
-Example output:
+Example output 📄:
 
 ```text
 Result index: -1
